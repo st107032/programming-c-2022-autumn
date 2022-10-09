@@ -1,11 +1,10 @@
 #include <iostream>
 
-int main(int argc, char* argv[]) { 
-
+int main(int argc, char* argv[]) 
+{ 
     int n = 0;
     std::cin >> n;
-    std::cout << n / 100 + n % 100 / 10 + n % 100 % 10 << std::endl;
+    std::cout << n / 100 + n % 100 / 10 + n % 100 % 10;
 
     return EXIT_SUCCESS;
-
 }
